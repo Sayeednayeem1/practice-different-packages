@@ -36,8 +36,8 @@ const Header = () => {
                     <Navbar.Link href="/about">
                         About
                     </Navbar.Link>
-                    <Navbar.Link href="/navbars">
-                        Services
+                    <Navbar.Link href="/reactSlider">
+                        React Slick
                     </Navbar.Link>
                     <Navbar.Link href="/navbars">
                         Pricing
