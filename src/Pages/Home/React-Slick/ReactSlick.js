@@ -43,7 +43,7 @@ export default class Responsive extends Component {
 
         };
         return (
-            <div className="container mx-auto p-6 mt-6 mb-12">
+            <div className="container mx-auto p-7 mt-6 mb-12">
                 <h2 className="text-center text-red-200 text-2xl mb-5"> Responsive Slider</h2>
                 <Slider {...settings}>
                     <div>
