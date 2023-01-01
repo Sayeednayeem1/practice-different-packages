@@ -3,6 +3,7 @@ import Main from "../layouts/Main";
 import About from "../Pages/Home/About/About";
 import Home from "../Pages/Home/Home/Home";
 import Responsive from "../Pages/Home/React-Slick/ReactSlick";
+import Skills from "../Pages/Home/Skills/Skills";
 
 
 
@@ -22,6 +23,10 @@ export const router = createBrowserRouter([
             {
                 path: '/reactSlider',
                 element: <Responsive></Responsive>
+            },
+            {
+                path: '/skills',
+                element: <Skills></Skills>
             }
         ]
     }

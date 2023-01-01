@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className=''>
+        <div className='text-white'>
             <Navbar
                 className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-6 text-white'
                 fluid={true}
@@ -13,37 +13,37 @@ const Header = () => {
                 <Navbar.Brand href="https://flowbite.com/">
                     <img
                         src="https://flowbite.com/docs/images/logo.svg"
-                        className="mr-3 h-6 sm:h-9"
+                        className="mr-3 h-6 sm:h-9 text-white"
                         alt="Flowbite Logo"
                     />
-                    <span className="self-center whitespace-nowrap text-xl font-semibold">
+                    <span className="self-center whitespace-nowrap text-xl font-semibold text-white">
                         Flowbite
                     </span>
                 </Navbar.Brand>
-                <div className="flex md:order-2">
+                <div className="flex md:order-2 ">
                     <Button>
                         Get started
                     </Button>
                     <Navbar.Toggle />
                 </div>
-                <Navbar.Collapse>
+                <Navbar.Collapse >
                     <Navbar.Link
                         href="/"
                         active={true}
                     >
-                        Home
+                        <h4 className='text-white dark:text-white font-bold'>Home</h4>
                     </Navbar.Link>
                     <Navbar.Link href="/about" >
-                        About
+                        <h4 className='text-white dark:text-white font-bold'>About</h4>
                     </Navbar.Link>
                     <Navbar.Link href="/reactSlider">
-                        React Slick
+                    <h4 className='text-white dark:text-white font-bold'>React Slick</h4>
+                    </Navbar.Link>
+                    <Navbar.Link href="/skills">
+                    <h4 className='text-white dark:text-white font-bold'>Skills</h4>
                     </Navbar.Link>
                     <Navbar.Link href="/navbars">
-                        Skills
-                    </Navbar.Link>
-                    <Navbar.Link href="/navbars">
-                        Contact
+                    <h4 className='text-white dark:text-white font-bold'>Contact</h4>
                     </Navbar.Link>
                 </Navbar.Collapse>
             </Navbar>
