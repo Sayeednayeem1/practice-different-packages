@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className=''>
             <Navbar
-                className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-6'
+                className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-6 text-white'
                 fluid={true}
                 rounded={true}
             >
@@ -33,14 +33,14 @@ const Header = () => {
                     >
                         Home
                     </Navbar.Link>
-                    <Navbar.Link href="/about">
+                    <Navbar.Link href="/about" >
                         About
                     </Navbar.Link>
                     <Navbar.Link href="/reactSlider">
                         React Slick
                     </Navbar.Link>
                     <Navbar.Link href="/navbars">
-                        Pricing
+                        Skills
                     </Navbar.Link>
                     <Navbar.Link href="/navbars">
                         Contact
