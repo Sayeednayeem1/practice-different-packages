@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import 'animate.css';
 import Slider from "react-slick";
 import Slider1 from '../../../assets/images/Butterfly1.png';
 import Slider2 from '../../../assets/images/Butterfly2.png';
@@ -43,7 +44,7 @@ export default class Responsive extends Component {
 
         };
         return (
-            <div className="container mx-auto p-7 mt-6 mb-6">
+            <div className="container mx-auto p-7 mt-6 mb-6 animate__animated animate__slideInLeft">
                 <h2 className="text-center text-white font-bold text-2xl mb-5">Slide With Me!</h2>
                 <Slider {...settings}>
                     <div>
