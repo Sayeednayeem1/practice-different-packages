@@ -1,12 +1,28 @@
 import { Button, Navbar } from 'flowbite-react';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Header.css';
 
 const Header = () => {
+
+    const [theme, setTheme] = useState('light');
+
+    useEffect(() => {
+        if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+        }
+        else {
+            document.documentElement.classList.remove('dark');
+        }
+    }, [theme]);
+
+    const handleThemeChange = () => {
+        setTheme(theme === 'dark' ? 'light' : 'dark');
+    };
+
     return (
         <div className='text-white'>
             <Navbar
-                className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-6 text-white'
+                className='bg-gradient-to-r from-black via-purple-500 to-black  py-6 text-white'
                 fluid={true}
                 rounded={true}
             >
@@ -21,8 +37,8 @@ const Header = () => {
                     </span>
                 </Navbar.Brand>
                 <div className="flex md:order-2 ">
-                    <Button>
-                        Get started
+                    <Button onClick={handleThemeChange}>
+                        dark/Light
                     </Button>
                     <Navbar.Toggle />
                 </div>

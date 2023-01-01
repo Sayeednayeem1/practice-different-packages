@@ -8,7 +8,7 @@ import './global.css'
 
 function App() {
   return (
-    <div >
+    <div className='dark:bg-black'>
       <div>
         <RouterProvider router={router}></RouterProvider>
       </div>

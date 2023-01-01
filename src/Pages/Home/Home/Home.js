@@ -10,7 +10,6 @@ const Home = () => {
         <div className='container mx-auto'>
             <Banner></Banner>
             <Responsive></Responsive>
-            <About></About>
             <Skills></Skills>
             <Contact></Contact>
         </div>
