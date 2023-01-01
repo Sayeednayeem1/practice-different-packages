@@ -42,7 +42,7 @@ const Header = () => {
                     <Navbar.Link href="/skills">
                     <h4 className='text-white dark:text-white font-bold'>Skills</h4>
                     </Navbar.Link>
-                    <Navbar.Link href="/navbars">
+                    <Navbar.Link href="/contact">
                     <h4 className='text-white dark:text-white font-bold'>Contact</h4>
                     </Navbar.Link>
                 </Navbar.Collapse>

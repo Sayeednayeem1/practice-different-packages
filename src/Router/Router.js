@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../layouts/Main";
 import About from "../Pages/Home/About/About";
+import Contact from "../Pages/Home/Contact/Contact";
 import Home from "../Pages/Home/Home/Home";
 import Responsive from "../Pages/Home/React-Slick/ReactSlick";
 import Skills from "../Pages/Home/Skills/Skills";
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
             {
                 path: '/skills',
                 element: <Skills></Skills>
+            },
+            {
+                path: '/contact',
+                element: <Contact></Contact>
             }
         ]
     }
