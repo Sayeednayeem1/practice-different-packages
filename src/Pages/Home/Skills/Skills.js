@@ -3,7 +3,7 @@ import 'animate.css';
 
 const Skills = () => {
     return (
-        <div className='mt-8 mb-14'>
+        <div className='mt-16 mb-16'>
             <section className=" dark:bg-gray-900">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                     <div className="max-w-screen-md mb-8 lg:mb-16">
